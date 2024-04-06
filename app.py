@@ -33,9 +33,9 @@ k = {"NAME": [],
      }
 # connecting to sql
 mydb = sql.connect(host="localhost",
-                   user="root",
-                   password="Sarvan@123",
-                   database="business_cards_db")
+                   user="your_user_name",
+                   password="your_password",
+                   database="your_database_name")
 mycursor = mydb.cursor()
 mycursor.execute("""CREATE TABLE IF NOT EXISTS BusinessCards(
     id INT AUTO_INCREMENT PRIMARY KEY,
